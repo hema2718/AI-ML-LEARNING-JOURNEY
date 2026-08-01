@@ -1,5 +1,5 @@
 import pandas as pd
-import mathplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 data=pd.read_csv("Student_marks.csv")
 x=data[["Hours"]]
